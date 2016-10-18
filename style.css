@@ -48,9 +48,10 @@ footer {
 	text-align: center;
 }
 
-article .post {
+.post {
 	border-bottom: 1px #ccc solid;
 	overflow: hidden;
+	padding-bottom: 20px;
 }
 
 .button {
@@ -60,4 +61,10 @@ article .post {
 	padding: 10px 5px;
 	margin-bottom: 10px;
 	text-decoration: none;
+}
+
+.meta {
+	background: #333;
+	color: #fff;
+	padding: 5px;
 }
