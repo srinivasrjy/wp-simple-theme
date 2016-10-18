@@ -14,6 +14,11 @@
 						<div class="meta">
 							Created By <?php the_author(); ?> on <?php the_date(); ?> at <?php the_time(); ?>
 						</div>
+						<?php if(has_post_thumbnail()) : ?>
+							<div class="post-thumbnail">
+								<?php the_post_thumbnail(); ?>
+							</div>
+						<?php endif; ?>
 						<?php the_content(); ?>
 						<br>
 						<a class="button" href="<?php the_permalink(); ?>">
